@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="Oxme2U" name="HelloJuce" projectType="guiapp" jucerVersion="5.4.3">
+<JUCERPROJECT id="Oxme2U" name="HelloJuce" projectType="guiapp" jucerVersion="5.4.3"
+              cppLanguageStandard="17">
   <MAINGROUP id="drkfrj" name="HelloJuce">
     <GROUP id="{03775D5F-C172-E455-4DC9-A3E036F6808A}" name="Source">
       <FILE id="PEzmki" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
@@ -70,7 +71,7 @@
         <MODULEPATH id="juce_audio_basics"/>
       </MODULEPATHS>
     </VS2019>
-    <CLION targetFolder="Builds/CLion">
+    <CLION targetFolder="Builds/CLion" clionXcodeEnabled="1">
       <MODULEPATHS>
         <MODULEPATH id="juce_opengl"/>
         <MODULEPATH id="juce_gui_extra"/>
